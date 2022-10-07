@@ -4,7 +4,7 @@ function MemoryCard(props){
     let [clicked,setClicked]= useState(props.clicked)
     function click(){
         console.log(clicked)
-        if (clicked == false){
+        if (clicked === false){
             setClicked(true);
 
             props.onClick()

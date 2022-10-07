@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import MemoryCard from "./MemoryCard";
+import Greeting from "./Greeting"
+import LossDialog from "./LossDialog";
+import "../styles/board.css"
 function importAll(r) {
   
     let images = [];
@@ -14,14 +17,20 @@ function Board(){
 
     let [score,setScore]= useState(0)
     let [deck,setDeck] = useState(buildDeck())
-    
+    let [greeting,showGreeting] = useState(true)
+    let [lost,showLoss]=useState(false)
     useEffect(()=>{console.log(score)},[score])
-
+    function hideGreeting(){
+        showGreeting(false);
+    }
+    function hideLoss (){
+        showLoss(false)
+        setScore(0);
+    }
     function buildDeck(){
         let buildingDeck = images.map((img,index)=>{
             return{img,index,clicked : false}
         })
-        console.table(buildingDeck)
         return buildingDeck;
         
     }
@@ -40,9 +49,10 @@ function Board(){
     function resetBoard(){
         console.log ('reset board')
         setDeck(buildDeck())
-        setScore(0);
+            
+        showLoss(true)
 
-        
+       
     }
     function addPoint(){
         setScore(score+1);
@@ -62,8 +72,10 @@ function Board(){
                     reset = {resetBoard}
                     />
                 })}
-            
+            {lost?<LossDialog hide={hideLoss}/>:null}
+            {greeting?<Greeting hide={hideGreeting}/>:null}
         </div>
+      
         <div>score: {score}</div>
         </div>
     )
