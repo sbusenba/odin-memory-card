@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cardImg {
+  height:150px;
+  width: 150px;
+  border-radius: 15px;
+  border:1px solid black;
+}
+.card{
+  height:150px;
+  width: 150px;
+  border-radius: 15px;
+
+}
+.board {
+  height:750px;
+  width:750px;
+  border-radius: 15px;
+  border:2px solid black;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
