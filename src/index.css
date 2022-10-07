@@ -23,12 +23,7 @@ code {
   border-radius: 15px;
 
 }
-.board {
-  height:750px;
-  width:750px;
-  border-radius: 15px;
-  border:2px solid black;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+
+.visible {
+  display:block;
 }
