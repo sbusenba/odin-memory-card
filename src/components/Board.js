@@ -14,7 +14,7 @@ function importAll(r) {
  let images = importAll(require.context('../imgs', false, /\.(png|jpe?g|svg)$/));
 
 function Board(){
-
+    let [playing,setPlaying]= useState(false)
     let [score,setScore]= useState(0)
     let [deck,setDeck] = useState(buildDeck())
     let [greeting,showGreeting] = useState(true)
@@ -22,10 +22,12 @@ function Board(){
     useEffect(()=>{console.log(score)},[score])
     function hideGreeting(){
         showGreeting(false);
+        setPlaying(true)
     }
     function hideLoss (){
         showLoss(false)
         setScore(0);
+        setPlaying(true)
     }
     function buildDeck(){
         let buildingDeck = images.map((img,index)=>{
@@ -49,7 +51,7 @@ function Board(){
     function resetBoard(){
         console.log ('reset board')
         setDeck(buildDeck())
-            
+        setPlaying(false)    
         showLoss(true)
 
        
@@ -63,7 +65,7 @@ function Board(){
     return (
         <div>
         <div className="board">
-            {deck.map((card)=>{
+            {playing? deck.map((card)=>{
                 return <MemoryCard 
                     image={card.img} 
                     key ={card.index}
@@ -71,7 +73,8 @@ function Board(){
                     onClick={addPoint}
                     reset = {resetBoard}
                     />
-                })}
+                }) :null}
+            
             {lost?<LossDialog hide={hideLoss}/>:null}
             {greeting?<Greeting hide={hideGreeting}/>:null}
         </div>
