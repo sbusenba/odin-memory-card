@@ -9,7 +9,10 @@ function LossDialog(props){
             backgroundColor:"white",
             height:"650px",
             width: "650px",
-            justifyContent:"center",   
+            justifyContent:"center",  
+            display:"flex",
+            alignItems:"center", 
+            transparency:"0.5",
           }
           }>
             Sorry, you've clicked that before! Try to click each image once, and only once.
