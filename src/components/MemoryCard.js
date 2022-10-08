@@ -2,7 +2,9 @@ import { useState } from "react";
 
 function MemoryCard(props){
     let [clicked,setClicked]= useState(props.clicked)
-    function click(){
+    function click(e){
+        e.stopPropagation()
+        e.preventDefault()
         console.log(clicked)
         if (clicked === false){
             setClicked(true);
