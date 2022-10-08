@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/odin-memory-card/static/css/main.45af3eac.css",
+    "main.js": "/odin-memory-card/static/js/main.7d57e317.js",
+    "static/js/787.05d894ed.chunk.js": "/odin-memory-card/static/js/787.05d894ed.chunk.js",
+    "static/media/supra-18.jpg": "/odin-memory-card/static/media/supra-18.9d3da62944e52a62ab08.jpg",
+    "static/media/supra-15.jpg": "/odin-memory-card/static/media/supra-15.16f9225f6937e3d2940b.jpg",
+    "static/media/supra-23.jpg": "/odin-memory-card/static/media/supra-23.8f0492043683692247ed.jpg",
+    "static/media/supra-06.jpg": "/odin-memory-card/static/media/supra-06.24f0b1baf09c32bdff91.jpg",
+    "static/media/supra-03.jpg": "/odin-memory-card/static/media/supra-03.2f0d7c68fed105d2609f.jpg",
+    "static/media/supra-05.jpg": "/odin-memory-card/static/media/supra-05.06cbf2d4f2548c167615.jpg",
+    "static/media/supra-16.jpg": "/odin-memory-card/static/media/supra-16.aeccbbb7a668e622c4e9.jpg",
+    "static/media/supra-17.jpg": "/odin-memory-card/static/media/supra-17.a6fce74163477cd4e83a.jpg",
+    "static/media/supra-21.jpg": "/odin-memory-card/static/media/supra-21.4f3d4490ab73a11176b2.jpg",
+    "static/media/supra-25.jpg": "/odin-memory-card/static/media/supra-25.50c30d2fb00086ab3cf6.jpg",
+    "static/media/supra-24.jpg": "/odin-memory-card/static/media/supra-24.1d980c21b48de2687990.jpg",
+    "static/media/supra-19.jpg": "/odin-memory-card/static/media/supra-19.a08d17630d7d08f143af.jpg",
+    "static/media/supra-11.jpg": "/odin-memory-card/static/media/supra-11.b8af84070386924f9d6a.jpg",
+    "static/media/supra-22.jpg": "/odin-memory-card/static/media/supra-22.5c1d9272ed906f4b5406.jpg",
+    "static/media/supra-07.jpg": "/odin-memory-card/static/media/supra-07.67d8fd05f01d7683d76e.jpg",
+    "static/media/supra-01.jpg": "/odin-memory-card/static/media/supra-01.c2444044b24ed3f96d31.jpg",
+    "static/media/supra-12.jpg": "/odin-memory-card/static/media/supra-12.dab91f06872fe5eeba24.jpg",
+    "static/media/supra-20.jpg": "/odin-memory-card/static/media/supra-20.82aeb6d54c6dddca0fe1.jpg",
+    "static/media/supra-13.jpg": "/odin-memory-card/static/media/supra-13.70c2129a55905f536906.jpg",
+    "static/media/supra-02.jpg": "/odin-memory-card/static/media/supra-02.c2a8c1ff0c8be1cfe037.jpg",
+    "static/media/supra-14.jpg": "/odin-memory-card/static/media/supra-14.847a53d3dd18e1dd9a1c.jpg",
+    "static/media/supra-04.jpg": "/odin-memory-card/static/media/supra-04.7a65c3e157b5d31f3428.jpg",
+    "static/media/supra-10.jpg": "/odin-memory-card/static/media/supra-10.1659583d7ba8fb810abd.jpg",
+    "static/media/supra-09.jpg": "/odin-memory-card/static/media/supra-09.b1e07da4e8baec72fa02.jpg",
+    "static/media/supra-08.jpg": "/odin-memory-card/static/media/supra-08.0a807dc9b2aef8b20e7a.jpg",
+    "index.html": "/odin-memory-card/index.html",
+    "main.45af3eac.css.map": "/odin-memory-card/static/css/main.45af3eac.css.map",
+    "main.7d57e317.js.map": "/odin-memory-card/static/js/main.7d57e317.js.map",
+    "787.05d894ed.chunk.js.map": "/odin-memory-card/static/js/787.05d894ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45af3eac.css",
+    "static/js/main.7d57e317.js"
+  ]
+}
