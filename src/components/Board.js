@@ -19,6 +19,7 @@ function Board(){
     let [deck,setDeck] = useState(buildDeck())
     let [greeting,showGreeting] = useState(true)
     let [lost,showLoss]=useState(false)
+    let [highScore,setHighScore] = useState(0)
     useEffect(()=>{console.log(score)},[score])
     function hideGreeting(){
         showGreeting(false);
@@ -57,13 +58,16 @@ function Board(){
        
     }
     function addPoint(){
-        setScore(score+1);
+        let newScore = score + 1
         console.log('add point')
         shuffleDeck()
+        if (newScore > highScore){setHighScore(newScore)}
+        setScore(newScore);
     }
 
     return (
         <div>
+            <h3>Is that a...</h3>
         <div className="board">
             {playing? deck.map((card)=>{
                 return <MemoryCard 
@@ -78,8 +82,18 @@ function Board(){
             {lost?<LossDialog hide={hideLoss}/>:null}
             {greeting?<Greeting hide={hideGreeting}/>:null}
         </div>
-      
-        <div>score: {score}</div>
+            <div class ="scoreboard"
+                style ={{
+                    display:"flex",
+                    flexDirection:"row",
+                    justifyContent:"space-around"
+                }}
+            >
+                <div>score: {score}</div> 
+                <div>high: {highScore}</div>
+
+            </div>
+        
         </div>
     )
 }
