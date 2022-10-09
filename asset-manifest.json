@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/odin-memory-card/static/css/main.45af3eac.css",
-    "main.js": "/odin-memory-card/static/js/main.7d57e317.js",
+    "main.css": "/odin-memory-card/static/css/main.e4a0c386.css",
+    "main.js": "/odin-memory-card/static/js/main.411dd15a.js",
     "static/js/787.05d894ed.chunk.js": "/odin-memory-card/static/js/787.05d894ed.chunk.js",
     "static/media/supra-18.jpg": "/odin-memory-card/static/media/supra-18.9d3da62944e52a62ab08.jpg",
     "static/media/supra-15.jpg": "/odin-memory-card/static/media/supra-15.16f9225f6937e3d2940b.jpg",
@@ -29,12 +29,12 @@
     "static/media/supra-09.jpg": "/odin-memory-card/static/media/supra-09.b1e07da4e8baec72fa02.jpg",
     "static/media/supra-08.jpg": "/odin-memory-card/static/media/supra-08.0a807dc9b2aef8b20e7a.jpg",
     "index.html": "/odin-memory-card/index.html",
-    "main.45af3eac.css.map": "/odin-memory-card/static/css/main.45af3eac.css.map",
-    "main.7d57e317.js.map": "/odin-memory-card/static/js/main.7d57e317.js.map",
+    "main.e4a0c386.css.map": "/odin-memory-card/static/css/main.e4a0c386.css.map",
+    "main.411dd15a.js.map": "/odin-memory-card/static/js/main.411dd15a.js.map",
     "787.05d894ed.chunk.js.map": "/odin-memory-card/static/js/787.05d894ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45af3eac.css",
-    "static/js/main.7d57e317.js"
+    "static/css/main.e4a0c386.css",
+    "static/js/main.411dd15a.js"
   ]
 }
